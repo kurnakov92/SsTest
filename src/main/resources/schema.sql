@@ -1,0 +1,7 @@
+CREATE TABLE user(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(40) NOT NULL,
+  last_name VARCHAR(40) NOT NULL,
+  address VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id)
+);
